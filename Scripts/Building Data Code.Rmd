@@ -21,14 +21,14 @@ All of the data sets associated with this file are all publicly available via SF
 Building permit data is separated by before and after 01/01/2013, and it will be used to look at where any A/C related renovations are located. Tax roll and building audit data was mainly used to separate buildings by type, depending on how specific buildings were to be organized. Both data sets provide information about the buildings that could be useful. Due to data privacy, some of this data is available only on the zipcode level. 
 ```{r}
 #building permit data
-before_2013 <- read.csv("~/PH 699 Bilaoen/Building_Permits_before_January_1,_2013_20260319.csv")
-after_2013 <- read.csv("~/PH 699 Bilaoen/Building_Permits_filed_on_or_after_January_1,_2013_20260319.csv")
+before_2013 <- read.csv("../Building_Permit_data/Building_Permits_before_January_1,_2013_20260319.csv")
+after_2013 <- read.csv("../Building_Permit_data/Building_Permits_filed_on_or_after_January_1,_2013_20260319.csv")
 
 #tax data (building type)
-tax_rolls <- read.csv("~/PH 699 Bilaoen/Assessor_Historical_Secured_Property_Tax_Rolls_20260319.csv")
+tax_rolls <- read.csv("../Building_Permit_data/Assessor_Historical_Secured_Property_Tax_Rolls_20260319.csv")
 
 #energy compliance data (building type)
-building_audits <- read.csv("~/PH 699 Bilaoen/Existing_Buildings_-_Basic_Info_and_Audit_Compliance_Status_20260319.csv")
+building_audits <- read.csv("../Building_Permit_data/Existing_Buildings_-_Basic_Info_and_Audit_Compliance_Status_20260319.csv")
 ```
 
 #Wrangling A/C data 

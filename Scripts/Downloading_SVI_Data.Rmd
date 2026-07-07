@@ -17,9 +17,9 @@ pacman::p_load(tidyverse)
 #Reading in SVI Data
 Options to filter out by zipcode or by census tract. 
 ```{r}
-svi_census <- read.csv("~/PH 699 Bilaoen/SVI_2022_Census_Tract.csv")
+svi_census <- read.csv("../PINC_data/SVI_2022_Census_Tract.csv")
 
-svi_zcta <- read.csv("~/PH 699 Bilaoen/SVI_2022_Zip_Code.csv")
+svi_zcta <- read.csv("../PINC_data/SVI_2022_Zip_Code.csv")
 ```
 
 #Data Wrangling 
